@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-08T15:18:03+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quadrate Tech School</title><subtitle>Quadrate Tech School is a complete free virtual Academy to learn programming languages and other skills</subtitle><entry><title type="html">Core Java Interview Questions and Answers</title><link href="http://localhost:4000/java/2019/10/13/Core-Java-Interview-Questions-and-Answers.html" rel="alternate" type="text/html" title="Core Java Interview Questions and Answers" /><published>2019-10-13T19:59:57+05:30</published><updated>2019-10-13T19:59:57+05:30</updated><id>http://localhost:4000/java/2019/10/13/Core%20Java%20Interview%20Questions%20and%20Answers</id><content type="html" xml:base="http://localhost:4000/java/2019/10/13/Core-Java-Interview-Questions-and-Answers.html">&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/yYmvQdp/Java-Interview-Questions-and-Answers-1.jpg&quot; alt=&quot;Java-Interview-Questions-and-Answers-1&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#java12-features&quot;&gt;Name some important features of Java 12 release?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java11-features&quot;&gt;What are the important features of Java 11 release?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java10-features&quot;&gt;What are the important features of Java 10 release?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java9-features&quot;&gt;What are the important features of Java 9 release?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java8-features&quot;&gt;What are the important features of Java 8 release?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java-oops&quot;&gt;Name some OOPS Concepts in Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#platform-independent&quot;&gt;What do you mean by platform independence of Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jvm&quot;&gt;What is JVM and is it platform independent?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jdk-vs-jvm&quot;&gt;What is the difference between JDK and JVM?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jvm-vs-jre&quot;&gt;What is the difference between JVM and JRE?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#object-class&quot;&gt;Which class is the superclass of all classes?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#multiple-inheritance&quot;&gt;Why Java doesn&amp;#8217;t support multiple inheritance?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#object-oriented&quot;&gt;Why Java is not pure Object Oriented language?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#path-vs-classpath&quot;&gt;What is difference between path and classpath variables?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#main-method&quot;&gt;What is the importance of main method in Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#overloading-overriding&quot;&gt;What is overloading and overriding in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#main-method-overloading&quot;&gt;Can we overload main method?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#public-class&quot;&gt;Can we have multiple public classes in a java source file?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#package&quot;&gt;What is Java Package and which package is imported by default?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#access-modifiers&quot;&gt;What are access modifiers?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#final-keyword&quot;&gt;What is final keyword?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#static-keyword&quot;&gt;What is static keyword?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#finalize-finally&quot;&gt;What is finally and finalize in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#static-class&quot;&gt;Can we declare a class as static?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#static-import&quot;&gt;What is static import?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#try-with-resources&quot;&gt;What is try-with-resources in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#multi-catch-block&quot;&gt;What is multi-catch block in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#static-block&quot;&gt;What is static block?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#interface&quot;&gt;What is an interface?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#abstract-class&quot;&gt;What is an abstract class?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#interface-vs-abstract-class&quot;&gt;What is the difference between abstract class and interface?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#interface-extends&quot;&gt;Can an interface implement or extend another interface?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#marker-interface&quot;&gt;What is Marker interface?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#wrapper-classes&quot;&gt;What are Wrapper classes?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#enum-java&quot;&gt;What is Enum in Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#annotations-java&quot;&gt;What is Java Annotations?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#reflection-api&quot;&gt;What is Java Reflection API? Why it&amp;#8217;s so important to have?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#composition&quot;&gt;What is composition in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#composition-vs-inheritance&quot;&gt;What is the benefit of Composition over Inheritance?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sort-objects&quot;&gt;How to sort a collection of custom Objects in Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#inner-class&quot;&gt;What is inner class in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#anonymous-inner-class&quot;&gt;What is anonymous inner class?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#classloader&quot;&gt;What is Classloader in Java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#classloader-types&quot;&gt;What are different types of classloaders?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#ternary-operator&quot;&gt;What is ternary operator in java?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#super-keyword&quot;&gt;What does super keyword do?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#break-continue-statement&quot;&gt;What is break and continue statement?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#this-keyword&quot;&gt;What is this keyword?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#default-constructor&quot;&gt;What is default constructor?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#try-catch-block&quot;&gt;Can we have try without catch block?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#garbage-collection&quot;&gt;What is Garbage Collection?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#serialization&quot;&gt;What is Serialization and Deserialization?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jar-file-run&quot;&gt;How to run a JAR file through command prompt?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#system-class&quot;&gt;What is the use of System class?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#instanceof-keyword&quot;&gt;What is instanceof keyword?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#string-switch&quot;&gt;Can we use String with switch case?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#pass-by-value&quot;&gt;Java is Pass by Value or Pass by Reference?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#heap-vs-stack&quot;&gt;What is difference between Heap and Stack Memory?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#java-compiler&quot;&gt;Java Compiler is stored in JDK, JRE or JVM?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#static-programming-questions&quot;&gt;What will be the output of following programs?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Core Java Interview Questions and Answers&lt;/h2&gt;
+&lt;ol&gt;
+&lt;a name=&quot;java12-features&quot;&gt;&lt;/a&gt;&amp;lt;/p&amp;gt;
+&lt;li&gt;
+&lt;h3&gt;Name some important features of Java 12 release?&lt;/h3&gt;
+&lt;p&gt;Java 12 was launched on March 19, 2019. It is a Non-LTS version. Some of the &lt;a href=&quot;https://www.journaldev.com/28666/java-12-features&quot;&gt;Java 12 Features&lt;/a&gt; are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;JVM Changes &amp;#8211; JEP 189, JEP 346, JEP 344, and JEP 230.&lt;/li&gt;
+&lt;li&gt;Switch Expressions&lt;/li&gt;
+&lt;li&gt;File mismatch() Method&lt;/li&gt;
+&lt;li&gt;Compact Number Formatting&lt;/li&gt;
+&lt;li&gt;Teeing Collectors in Stream API&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/28673/java-12-string-methods&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;New Methods in String Class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JEP 334: JVM Constants API&lt;/li&gt;
+&lt;li&gt;JEP 305: Pattern Matching for instanceof&lt;/li&gt;
+&lt;li&gt;Raw String Literals is Removed From JDK 12.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;java11-features&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are the important features of Java 11 release?&lt;/h3&gt;
+&lt;p&gt;Java 11 is the second LTS release after Java 8. They’ve changed the licensing and support model which means if you download the Java 11 Oracle JDK, it will be paid for commercial use. If you want to use free version, you can download it from OpenJDK website.&lt;/p&gt;
+&lt;p&gt;Some of the important features of Java 11 are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We can run a java program directly through &lt;code&gt;java&lt;/code&gt; command. The source file will be implicitly compiled and executed. It&amp;#8217;s part of JEP 330 feature implementation.&lt;/li&gt;
+&lt;li&gt;There are 6 new methods added in String class &amp;#8211; isBlank(), lines(), strip(), stripLeading(), stripTrailing(), and repeat(). You can read all about them at our article on &lt;a href=&quot;https://www.journaldev.com/16928/java-string&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Java String&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Files class got two new methods to read/write string data &amp;#8211; readString() and writeString().&lt;/li&gt;
+&lt;li&gt;We can use &amp;#8220;var&amp;#8221; with &lt;a href=&quot;https://www.journaldev.com/16703/java-lambda-expression&quot;&gt;lambda expressions&lt;/a&gt; too. It&amp;#8217;s part of JEP 323 implementation.&lt;/li&gt;
+&lt;li&gt;Epsilon: A No-Op Garbage Collector for test environments. It&amp;#8217;s an experimental feature and part of JEP 318.&lt;/li&gt;
+&lt;li&gt;Java EE and CORBA Modules have been removed from the standard JDK build. Nashorn JavaScript Engine has also been deprecated.&lt;/li&gt;
+&lt;li&gt;New HTTP Client (JEP 321) and Flight Recorder (JEP 328)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a complete overview, please read &lt;a href=&quot;https://www.journaldev.com/24601/java-11-features&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Java 11 Features&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;java10-features&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are the important features of Java 10 release?&lt;/h3&gt;
+&lt;p&gt;Java 10 is the first every-six-months from Oracle corporation, so it&amp;#8217;s not a major release like earlier versions. However some of the important features of Java 10 are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/19871/java-10-local-variable-type-inference&quot;&gt;Local-Variable Type Inference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Enhance java.util.Locale and related APIs to implement additional Unicode extensions of BCP 47 language tags.&lt;/li&gt;
+&lt;li&gt;Enable the HotSpot VM to allocate the Java object heap on an alternative memory device, such as an NV-DIMM, specified by the user.&lt;/li&gt;
+&lt;li&gt;Provide a default set of root Certification Authority (CA) certificates in the JDK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Java 10 is mostly a maintenance release, however I really liked the local variable type inference feature. For a detailed overview of Java 10, please go through &lt;a href=&quot;https://www.journaldev.com/20395/java-10-features&quot;&gt;Java 10 Features&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;java9-features&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are the important features of Java 9 release?&lt;/h3&gt;
+&lt;p&gt;Java 9 was a major release and brought a lot of features. Some of the important features are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java 9 REPL (JShell)&lt;/li&gt;
+&lt;li&gt;Java 9 Module System&lt;/li&gt;
+&lt;li&gt;Factory Methods for Immutable List, Set, Map and Map.Entry&lt;/li&gt;
+&lt;li&gt;Private methods in Interfaces&lt;/li&gt;
+&lt;li&gt;Reactive Streams&lt;/li&gt;
+&lt;li&gt;GC (Garbage Collector) Improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will find more details about them at &lt;a href=&quot;https://www.journaldev.com/13121/java-9-features-with-examples&quot;&gt;Java 9 Features&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;java8-features&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are the important features of Java 8 release?&lt;/h3&gt;
+&lt;p&gt;Java 8 has been released in March 2014, so it&amp;#8217;s one of the hot topic in java interview questions. If you answer this question clearly, it will show that you like to keep yourself up-to-date with the latest technologies.&lt;/p&gt;
+&lt;p&gt;Java 8 has been one of the biggest releases after Java 5 annotations and generics. Some of the important features of Java 8 are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method&quot; title=&quot;Java 8 Interface Changes – static methods, default methods, functional Interfaces&quot;&gt;Interface changes with default and static methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/2763/java-8-functional-interfaces&quot; title=&quot;Java 8 Lambda Expressions and Functional Interfaces Example Tutorial&quot;&gt;Functional interfaces and Lambda Expressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/2774/java-8-stream&quot; title=&quot;Java 8 Stream API Example Tutorial&quot;&gt;Java Stream API for collection classes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journaldev.com/2800/java-8-date-localdate-localdatetime-instant&quot; title=&quot;Java 8 Date Time API Example Tutorial – LocalDate, Instant, LocalDateTime, Parse and Format&quot;&gt;Java Date Time API&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I strongly recommend to go through above links to get proper understanding of each one of them, also read &lt;a href=&quot;https://www.journaldev.com/2389/java-8-features-with-examples&quot; title=&quot;Java 8 Features for Developers – lambdas, Functional interface, Stream and Time API&quot;&gt;Java 8 Features&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;java-oops&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Name some OOPS Concepts in Java?&lt;/h3&gt;
+&lt;p&gt;Java is based on Object Oriented Programming Concepts, following are some of the OOPS concepts implemented in java programming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abstraction&lt;/li&gt;
+&lt;li&gt;Encapsulation&lt;/li&gt;
+&lt;li&gt;Polymorphism&lt;/li&gt;
+&lt;li&gt;Inheritance&lt;/li&gt;
+&lt;li&gt;Association&lt;/li&gt;
+&lt;li&gt;Aggregation&lt;/li&gt;
+&lt;li&gt;Composition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Read more about them at &lt;a href=&quot;https://www.journaldev.com/12496/oops-concepts-java-example&quot;&gt;OOPS Concepts in Java&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;platform-independent&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What do you mean by platform independence of Java?&lt;/h3&gt;
+&lt;p&gt;Platform independence means that you can run the same Java Program in any Operating System. For example, you can write java program in Windows and run it in Mac OS.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;jvm&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is JVM and is it platform independent?&lt;/h3&gt;
+&lt;p&gt;Java Virtual Machine (JVM) is the heart of java programming language. JVM is responsible for converting byte code into machine readable code. JVM is not platform independent, thats why you have different JVM for different operating systems. We can customize JVM with Java Options, such as allocating minimum and maximum memory to JVM. It&amp;#8217;s called virtual because it provides an interface that doesn&amp;#8217;t depend on the underlying OS.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;jdk-vs-jvm&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the difference between JDK and JVM?&lt;/h3&gt;
+&lt;p&gt;Java Development Kit (JDK) is for development purpose and JVM is a part of it to execute the java programs. &lt;/p&gt;
+&lt;p&gt;JDK provides all the tools, executables and binaries required to compile, debug and execute a Java Program. The execution part is handled by JVM to provide machine independence.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;jvm-vs-jre&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the difference between JVM and JRE?&lt;/h3&gt;
+&lt;p&gt;Java Runtime Environment (JRE) is the implementation of JVM. JRE consists of JVM and java binaries and other classes to execute any program successfully. JRE doesn&amp;#8217;t contain any development tools like java compiler, debugger etc. If you want to execute any java program, you should have JRE installed.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;object-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Which class is the superclass of all classes?&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;java.lang.Object&lt;/code&gt; is the root class for all the java classes and we don&amp;#8217;t need to extend it.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;multiple-inheritance&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Why Java doesn&amp;#8217;t support multiple inheritance?&lt;/h3&gt;
+&lt;p&gt;Java doesn&amp;#8217;t support multiple inheritance in classes because of &amp;#8220;Diamond Problem&amp;#8221;. To know more about diamond problem with example, read &lt;a href=&quot;https://www.journaldev.com/1775/multiple-inheritance-in-java&quot;&gt;Multiple Inheritance in Java&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However multiple inheritances are supported in interfaces. An interface can extend multiple interfaces because they just declare the methods and implementation will be present in the implementing class. So there is no issue of the diamond problem with interfaces.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;object-oriented&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Why Java is not pure Object Oriented language?&lt;/h3&gt;
+&lt;p&gt;Java is not said to be pure object-oriented because it supports primitive types such as int, byte, short, long etc. I believe it brings simplicity to the language while writing our code. Obviously, java could have wrapper objects for the primitive types but just for the representation, they would not have provided any benefit.&lt;/p&gt;
+&lt;p&gt;As we know, for all the primitive types we have wrapper classes such as Integer, Long etc that provides some additional methods.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;path-vs-classpath&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is difference between path and classpath variables?&lt;/h3&gt;
+&lt;p&gt;PATH is an environment variable used by the operating system to locate the executables. That&amp;#8217;s why when we install Java or want any executable to be found by OS, we need to add the directory location in the PATH variable. If you work on Windows OS, read this post to learn &lt;a href=&quot;https://www.journaldev.com/476/java-windows-10-download-install&quot;&gt;how to setup PATH variable on Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Classpath is specific to java and used by java executables to locate class files. We can provide the classpath location while running java application and it can be a directory, ZIP files, JAR files etc.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;main-method&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the importance of main method in Java?&lt;/h3&gt;
+&lt;p&gt;main() method is the entry point of any standalone java application. The syntax of main method is &lt;code&gt;public static void main(String args[])&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Java main method is public and static so that Java runtime can access it without initializing the class. The input parameter is an array of String through which we can pass runtime arguments to the java program. Check this post to learn &lt;a href=&quot;https://www.journaldev.com/481/java-hello-world-program&quot;&gt;how to compile and run java program&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;overloading-overriding&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is overloading and overriding in java?&lt;/h3&gt;
+&lt;p&gt;When we have more than one method with the same name in a single class but the arguments are different, then it is called as method overloading.&lt;/p&gt;
+&lt;p&gt;Overriding concept comes in picture with inheritance when we have two methods with same signature, one in parent class and another in child class. We can use @Override annotation in the child class overridden method to make sure if parent class method is changed, so as child class.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;main-method-overloading&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can we overload main method?&lt;/h3&gt;
+&lt;p&gt;Yes, we can have multiple methods with name &amp;#8220;main&amp;#8221; in a single class. However if we run the class, java runtime environment will look for main method with syntax as &lt;code&gt;public static void main(String args[])&lt;/code&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;public-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can we have multiple public classes in a java source file?&lt;/h3&gt;
+&lt;p&gt;We can&amp;#8217;t have more than one public class in a single java source file. A single source file can have multiple classes that are not public.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;package&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Java Package and which package is imported by default?&lt;/h3&gt;
+&lt;p&gt;Java package is the mechanism to organize the java classes by grouping them. The grouping logic can be based on functionality or modules based. A java class fully classified name contains package and class name. For example, &lt;code&gt;java.lang.Object&lt;/code&gt; is the fully classified name of &lt;code&gt;Object&lt;/code&gt; class that is part of &lt;code&gt;java.lang&lt;/code&gt; package.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java.lang&lt;/code&gt; package is imported by default and we don&amp;#8217;t need to import any class from this package explicitly.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;access-modifiers&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are access modifiers?&lt;/h3&gt;
+&lt;p&gt;Java provides access control through public, private and protected access modifier keywords. When none of these are used, it&amp;#8217;s called default access modifier.&lt;br /&gt;
+A java class can only have public or default access modifier. Read &lt;a href=&quot;https://www.journaldev.com/2345/java-access-modifiers&quot;&gt;Java Access Modifiers&lt;/a&gt; to learn more about these in detail.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;final-keyword&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is final keyword?&lt;/h3&gt;
+&lt;p&gt;final keyword is used with Class to make sure no other class can extend it, for example String class is final and we can&amp;#8217;t extend it.&lt;/p&gt;
+&lt;p&gt;We can use the final keyword with methods to make sure child classes can&amp;#8217;t override it.&lt;/p&gt;
+&lt;p&gt;final keyword can be used with variables to make sure that it can be assigned only once. However the state of the variable can be changed, for example, we can assign a final variable to an object only once but the object variables can change later on.&lt;/p&gt;
+&lt;p&gt;Java interface variables are by default final and static.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;static-keyword&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is static keyword?&lt;/h3&gt;
+&lt;p&gt;static keyword can be used with class level variables to make it global i.e all the objects will share the same variable.&lt;/p&gt;
+&lt;p&gt;static keyword can be used with methods also. A static method can access only static variables of class and invoke only static methods of the class.&lt;/p&gt;
+&lt;p&gt;Read more in detail at &lt;a href=&quot;https://www.journaldev.com/1365/static-keyword-in-java&quot;&gt;java static keyword&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;finalize-finally&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is finally and finalize in java?&lt;/h3&gt;
+&lt;p&gt;finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. finally block is mostly used to release resources created in the try block.&lt;/p&gt;
+&lt;p&gt;finalize() is a special method in Object class that we can override in our classes. This method gets called by the garbage collector when the object is getting garbage collected. This method is usually overridden to release system resources when the object is garbage collected.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;static-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can we declare a class as static?&lt;/h3&gt;
+&lt;p&gt;We can&amp;#8217;t declare a top-level class as static however an inner class can be declared as static. If inner class is declared as static, it&amp;#8217;s called static nested class.&lt;br /&gt;
+The static nested class is the same as any other top-level class and is nested for only packaging convenience.&lt;/p&gt;
+&lt;p&gt;Read more about inner classes at &lt;a href=&quot;https://www.journaldev.com/996/java-inner-class&quot;&gt;java inner class&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;static-import&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is static import?&lt;/h3&gt;
+&lt;p&gt;If we have to use any static variable or method from other class, usually we import the class and then use the method/variable with class name.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+import java.lang.Math;
+
+//inside class
+double test = Math.PI * 5;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can do the same thing by importing the static method or variable only and then use it in the class as if it belongs to it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+import static java.lang.Math.PI;
+
+//no need to refer class now
+double test = PI * 5;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use of static import can cause confusion, so it&amp;#8217;s better to avoid it. Overuse of static import can make your program unreadable and unmaintainable.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;try-with-resources&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is try-with-resources in java?&lt;/h3&gt;
+&lt;p&gt;One of the Java 7 features is the try-with-resources statement for automatic resource management. Before Java 7, there was no auto resource management and we should explicitly close the resource. Usually, it was done in the &lt;code&gt;finally&lt;/code&gt; block of a try-catch statement. This approach used to cause memory leaks when we forgot to close the resource.&lt;/p&gt;
+&lt;p&gt;From Java 7, we can create resources inside try block and use it. Java takes care of closing it as soon as try-catch block gets finished. Read more at &lt;a href=&quot;https://www.journaldev.com/592/java-try-with-resources&quot;&gt;Java Automatic Resource Management&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;multi-catch-block&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is multi-catch block in java?&lt;/h3&gt;
+&lt;p&gt;Java 7 one of the improvement was multi-catch block where we can catch multiple exceptions in a single catch block. This makes are code shorter and cleaner when every catch block has similar code. &lt;/p&gt;
+&lt;p&gt;If a catch block handles multiple exceptions, you can separate them using a pipe (|) and in this case, exception parameter (ex) is final, so you can&amp;#8217;t change it.&lt;/p&gt;
+&lt;p&gt;Read more at &lt;a href=&quot;https://www.journaldev.com/629/java-catch-multiple-exceptions-rethrow-exception&quot;&gt;Java multi catch block&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;static-block&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;code-block code-block-3 ai-viewport-1&quot; style=&quot;margin: 8px auto; text-align: center; display: block; clear: both;&quot;&gt;
+&lt;div data-type=&quot;ad&quot; data-publisher=&quot;journaldev.com&quot; data-zone=&quot;jd_middle_post_desktop&quot; data-format=&quot;728x90&quot;&gt; &lt;/div&gt;&lt;/div&gt;
+
+&lt;li&gt;
+&lt;h3&gt;What is static block?&lt;/h3&gt;
+&lt;p&gt;Java static block is the group of statements that gets executed when the class is loaded into memory by Java ClassLoader. It is used to initialize static variables of the class. Mostly it&amp;#8217;s used to create static resources when class is loaded.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;interface&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is an interface?&lt;/h3&gt;
+&lt;p&gt;Interfaces are core part of java programming language and used a lot not only in JDK but also java design patterns, most of the frameworks and tools. Interfaces provide a way to achieve abstraction in java and used to define the contract for the subclasses to implement.&lt;/p&gt;
+&lt;p&gt;Interfaces are good for starting point to define Type and create top level hierarchy in our code. Since a java class can implements multiple interfaces, it&amp;#8217;s better to use interfaces as super class in most of the cases. Read more at &lt;a href=&quot;https://www.journaldev.com/1601/interface-in-java&quot;&gt;java interface&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;abstract-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is an abstract class?&lt;/h3&gt;
+&lt;p&gt;Abstract classes are used in java to create a class with some default method implementation for subclasses. An abstract class can have abstract method without body and it can have methods with implementation also. &lt;/p&gt;
+&lt;p&gt;abstract keyword is used to create a abstract class. Abstract classes can&amp;#8217;t be instantiated and mostly used to provide base for sub-classes to extend and implement the abstract methods and override or use the implemented methods in abstract class. Read important points about abstract classes at &lt;a href=&quot;https://www.journaldev.com/1582/abstract-class-in-java&quot;&gt;java abstract class&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;interface-vs-abstract-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the difference between abstract class and interface?&lt;/h3&gt;
+&lt;p&gt;abstract keyword is used to create abstract class whereas interface is the keyword for interfaces.&lt;/p&gt;
+&lt;p&gt;Abstract classes can have method implementations whereas interfaces can&amp;#8217;t.&lt;/p&gt;
+&lt;p&gt;A class can extend only one abstract class but it can implement multiple interfaces.&lt;/p&gt;
+&lt;p&gt;We can run an abstract class if it has main() method whereas we can&amp;#8217;t run an interface.&lt;/p&gt;
+&lt;p&gt;Some more differences in detail are at &lt;a href=&quot;https://www.journaldev.com/1607/difference-between-abstract-class-and-interface-in-java&quot;&gt;Difference between Abstract Class and Interface&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;interface-extends&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can an interface implement or extend another interface?&lt;/h3&gt;
+&lt;p&gt;Interfaces don&amp;#8217;t implement another interface, they extend it. Since interfaces can&amp;#8217;t have method implementations, there is no issue of diamond problem. That&amp;#8217;s why we have multiple inheritance in interfaces i.e an interface can extend multiple interfaces.&lt;/p&gt;
+&lt;p&gt;From Java 8 onwards, interfaces can have default method implementations. So to handle diamond problem when a common default method is present in multiple interfaces, it&amp;#8217;s mandatory to provide implementation of the method in the class implementing them. For more details with examples, read &lt;a href=&quot;https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method&quot;&gt;Java 8 interface changes&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;marker-interface&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Marker interface?&lt;/h3&gt;
+&lt;p&gt;A marker interface is an empty interface without any method but used to force some functionality in implementing classes by Java. Some of the well known marker interfaces are Serializable and Cloneable.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;wrapper-classes&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are Wrapper classes?&lt;/h3&gt;
+&lt;p&gt;Java wrapper classes are the Object representation of eight primitive types in java. All the wrapper classes in java are immutable and final. Java 5 autoboxing and unboxing allows easy conversion between primitive types and their corresponding wrapper classes.&lt;/p&gt;
+&lt;p&gt;Read more at &lt;a href=&quot;https://www.journaldev.com/1002/wrapper-class-in-java&quot;&gt;Wrapper classes in Java&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;enum-java&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Enum in Java?&lt;/h3&gt;
+&lt;p&gt;Enum was introduced in Java 1.5 as a new type whose fields consists of fixed set of constants. For example, in Java we can create Direction as enum with fixed fields as EAST, WEST, NORTH, SOUTH.&lt;/p&gt;
+&lt;p&gt;enum is the keyword to create an enum type and similar to the class. Enum constants are implicitly static and final. Read more in detail at &lt;a href=&quot;https://www.journaldev.com/716/java-enum&quot;&gt;java enum&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;annotations-java&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Java Annotations?&lt;/h3&gt;
+&lt;p&gt;Java Annotations provide information about the code and they have no direct effect on the code they annotate. Annotations are introduced in Java 5. Annotation is metadata about the program embedded in the program itself. It can be parsed by the annotation parsing tool or by the compiler. We can also specify annotation availability to either compile time only or till runtime also. Java Built-in annotations are @Override, @Deprecated and @SuppressWarnings. Read more at &lt;a href=&quot;https://www.journaldev.com/721/java-annotations&quot;&gt;java annotations&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;reflection-api&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Java Reflection API? Why it&amp;#8217;s so important to have?&lt;/h3&gt;
+&lt;p&gt;Java Reflection API provides the ability to inspect and modify the runtime behavior of java application. We can inspect a java class, interface, enum and get their methods and field details. Reflection API is an advanced topic and we should avoid it in normal programming. Reflection API usage can break the &lt;a href=&quot;https://www.journaldev.com/1827/java-design-patterns-example-tutorial&quot;&gt;design pattern&lt;/a&gt; such as &lt;a href=&quot;https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples&quot;&gt;Singleton&lt;/a&gt; pattern by invoking the private constructor i.e violating the rules of access modifiers.&lt;/p&gt;
+&lt;p&gt;Even though we don&amp;#8217;t use Reflection API in normal programming, it&amp;#8217;s very important to have. We can&amp;#8217;t have any frameworks such as Spring, Hibernate or servers such as Tomcat, JBoss without Reflection API. They invoke the appropriate methods and instantiate classes through reflection API and use it a lot for other processing.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://www.journaldev.com/1789/java-reflection-example-tutorial&quot;&gt;Java Reflection Tutorial&lt;/a&gt; to get in-depth knowledge of reflection api.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;composition&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is composition in java?&lt;/h3&gt;
+&lt;p&gt;Composition is the design technique to implement has-a relationship in classes. We can use Object composition for code reuse.&lt;/p&gt;
+&lt;p&gt;Java composition is achieved by using instance variables that refer to other objects. The benefit of using composition is that we can control the visibility of other objects to client classes and reuse only what we need. Read more with example at &lt;a href=&quot;https://www.journaldev.com/1325/composition-in-java-example&quot;&gt;Java Composition&lt;/a&gt; example.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;composition-vs-inheritance&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the benefit of Composition over Inheritance?&lt;/h3&gt;
+&lt;p&gt;One of the best practices of Java programming is to &amp;#8220;favor composition over inheritance&amp;#8221;. Some of the possible reasons are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Any change in the superclass might affect subclass even though we might not be using the superclass methods. For example, if we have a method test() in the subclass and suddenly somebody introduces a method test() in the superclass, we will get compilation errors in the subclass. The composition will never face this issue because we are using only what methods we need.&lt;/li&gt;
+&lt;li&gt;Inheritance exposes all the superclass methods and variables to the client and if we have no control in designing superclass, it can lead to security holes. Composition allows us to provide restricted access to the methods and hence more secure.&lt;/li&gt;
+&lt;li&gt;We can get runtime binding in composition where inheritance binds the classes at compile time. So composition provides flexibility in the invocation of methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can read more about above benefits of composition over inheritance at &lt;a href=&quot;https://www.journaldev.com/1775/multiple-inheritance-in-java&quot;&gt;java composition vs inheritance&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;sort-objects&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;How to sort a collection of custom Objects in Java?&lt;/h3&gt;
+&lt;p&gt;We need to implement Comparable interface to support sorting of custom objects in a collection. Comparable interface has compareTo(T obj) method which is used by sorting methods and by providing this method implementation, we can provide default way to sort custom objects collection.&lt;/p&gt;
+&lt;p&gt;However, if you want to sort based on different criteria, such as sorting an Employees collection based on salary or age, then we can create Comparator instances and pass it as sorting methodology. For more details read &lt;a href=&quot;https://www.journaldev.com/780/comparable-and-comparator-in-java-example&quot;&gt;Java Comparable and Comparator&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;inner-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is inner class in java?&lt;/h3&gt;
+&lt;p&gt;We can define a class inside a class and they are called nested classes. Any non-static nested class is known as inner class. Inner classes are associated with the object of the class and they can access all the variables and methods of the outer class. Since inner classes are associated with the instance, we can&amp;#8217;t have any static variables in them.&lt;/p&gt;
+&lt;p&gt;We can have local inner class or anonymous inner class inside a class. For more details read &lt;a href=&quot;https://www.journaldev.com/996/java-inner-class&quot;&gt;java inner class&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;anonymous-inner-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is anonymous inner class?&lt;/h3&gt;
+&lt;p&gt;A local inner class without name is known as anonymous inner class. An anonymous class is defined and instantiated in a single statement. Anonymous inner class always extend a class or implement an interface. &lt;/p&gt;
+&lt;p&gt;Since an anonymous class has no name, it is not possible to define a constructor for an anonymous class. Anonymous inner classes are accessible only at the point where it is defined.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;classloader&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Classloader in Java?&lt;/h3&gt;
+&lt;p&gt;Java Classloader is the program that loads byte code program into memory when we want to access any class. We can create our own classloader by extending ClassLoader class and overriding loadClass(String name) method. Learn more at &lt;a href=&quot;https://www.journaldev.com/349/java-classloader&quot;&gt;java classloader&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;classloader-types&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What are different types of classloaders?&lt;/h3&gt;
+&lt;p&gt;There are three types of built-in Class Loaders in Java:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bootstrap Class Loader &amp;#8211; It loads JDK internal classes, typically loads rt.jar and other core classes.&lt;/li&gt;
+&lt;li&gt;Extensions Class Loader &amp;#8211; It loads classes from the JDK extensions directory, usually $JAVA_HOME/lib/ext directory.&lt;/li&gt;
+&lt;li&gt;System Class Loader &amp;#8211; It loads classes from the current classpath that can be set while invoking a program using -cp or -classpath command line options.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;ternary-operator&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is ternary operator in java?&lt;/h3&gt;
+&lt;p&gt;Java ternary operator is the only conditional operator that takes three operands. It&amp;#8217;s a one liner replacement for if-then-else statement and used a lot in java programming. We can use ternary operator if-else conditions or even switch conditions using nested ternary operators. An example can be found at &lt;a href=&quot;https://www.journaldev.com/963/java-ternary-operator&quot;&gt;java ternary operator&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;super-keyword&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What does super keyword do?&lt;/h3&gt;
+&lt;p&gt;super keyword can be used to access super class method when you have overridden the method in the child class.&lt;/p&gt;
+&lt;p&gt;We can use super keyword to invoke superclass constructor in child class constructor but in this case, it should be the first statement in the constructor method.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+package com.journaldev.access;
+
+public class SuperClass {
+
+	public SuperClass(){
+	}
+	
+	public SuperClass(int i){}
+	
+	public void test(){
+		System.out.println(&quot;super class test method&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use of super keyword can be seen in below child class implementation.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+package com.journaldev.access;
+
+public class ChildClass extends SuperClass {
+
+	public ChildClass(String str){
+		//access super class constructor with super keyword
+		super();
+		
+		//access child class method
+		test();
+		
+		//use super to access super class method
+		super.test();
+	}
+	
+	@Override
+	public void test(){
+		System.out.println(&quot;child class test method&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;break-continue-statement&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is break and continue statement?&lt;/h3&gt;
+&lt;p&gt;We can use break statement to terminate for, while, or do-while loop. We can use break statement in switch statement to exit the switch case. You can see the example of break statement at &lt;a href=&quot;https://www.journaldev.com/588/java-switch-case-string&quot;&gt;java break&lt;/a&gt;. We can use break with label to terminate the nested loops.&lt;/p&gt;
+&lt;p&gt;The continue statement skips the current iteration of a for, while or do-while loop. We can use the continue statement with the label to skip the current iteration of the outermost loop.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;this-keyword&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is this keyword?&lt;/h3&gt;
+&lt;p&gt;this keyword provides the reference to the current object and it&amp;#8217;s mostly used to make sure that object variables are used, not the local variables having the same name. &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+//constructor
+public Point(int x, int y) {
+    this.x = x;
+    this.y = y;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can also use this keyword to invoke other constructors from a constructor.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+public Rectangle() {
+    this(0, 0, 0, 0);
+}
+public Rectangle(int width, int height) {
+    this(0, 0, width, height);
+}
+public Rectangle(int x, int y, int width, int height) {
+    this.x = x;
+    this.y = y;
+    this.width = width;
+    this.height = height;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;default-constructor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is default constructor?&lt;/h3&gt;
+&lt;p&gt;No argument constructor of a class is known as default constructor. When we don&amp;#8217;t define any constructor for the class, java compiler automatically creates the default no-args constructor for the class. If there are other constructors defined, then compiler won&amp;#8217;t create default constructor for us.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;try-catch-block&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can we have try without catch block?&lt;/h3&gt;
+&lt;p&gt;Yes, we can have try-finally statement and hence avoiding catch block.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;garbage-collection&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Garbage Collection?&lt;/h3&gt;
+&lt;p&gt;Garbage Collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects. In Java, process of deallocating memory is handled automatically by the garbage collector. &lt;/p&gt;
+&lt;p&gt;We can run the garbage collector with code &lt;code&gt;Runtime.getRuntime().gc()&lt;/code&gt; or use utility method &lt;code&gt;System.gc()&lt;/code&gt;. For a detailed analysis of Heap Memory and Garbage Collection, please read &lt;a href=&quot;https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java&quot; title=&quot;Java (JVM) Memory Model and Garbage Collection Monitoring Tuning&quot;&gt;Java Garbage Collection&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;serialization&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is Serialization and Deserialization?&lt;/h3&gt;
+&lt;p&gt;We can convert a Java object to an Stream that is called Serialization. Once an object is converted to Stream, it can be saved to file or send over the network or used in socket connections.&lt;/p&gt;
+&lt;p&gt;The object should implement Serializable interface and we can use java.io.ObjectOutputStream to write object to file or to any OutputStream object. Read more at &lt;a href=&quot;https://www.journaldev.com/927/objectoutputstream-java-write-object-file&quot;&gt;Java Serialization&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The process of converting stream data created through serialization to Object is called deserialization. Read more at &lt;a href=&quot;https://www.journaldev.com/933/objectinputstream-java-read-object-file&quot;&gt;Java Deserialization&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;jar-file-run&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;How to run a JAR file through command prompt?&lt;/h3&gt;
+&lt;p&gt;We can run a jar file using java command but it requires Main-Class entry in jar manifest file. Main-Class is the entry point of the jar and used by java command to execute the class. Learn more at &lt;a href=&quot;https://www.journaldev.com/1344/run-jar-file&quot;&gt;java jar file&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;system-class&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is the use of System class?&lt;/h3&gt;
+&lt;p&gt;Java System Class is one of the core classes. One of the easiest way to log information for debugging is System.out.print() method. &lt;/p&gt;
+&lt;p&gt;System class is final so that we can&amp;#8217;t subclass and override its behavior through inheritance. System class doesn&amp;#8217;t provide any public constructors, so we can&amp;#8217;t instantiate this class and that&amp;#8217;s why all of its methods are static.&lt;/p&gt;
+&lt;p&gt;Some of the utility methods of System class are for array copy, get the current time, reading environment variables. Read more at &lt;a href=&quot;https://www.journaldev.com/1847/system-class-java-properties-out-println&quot;&gt;Java System Class&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;instanceof-keyword&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is instanceof keyword?&lt;/h3&gt;
+&lt;p&gt;We can use instanceof keyword to check if an object belongs to a class or not. We should avoid it&amp;#8217;s usage as much as possible. Sample usage is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+public static void main(String args[]){
+	Object str = new String(&quot;abc&quot;);
+		
+	if(str instanceof String){
+		System.out.println(&quot;String value:&quot;+str);
+	}
+		
+	if(str instanceof Integer){
+		System.out.println(&quot;Integer value:&quot;+str);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Since str is of type String at runtime, first if statement evaluates to the true and second one to false.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;string-switch&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Can we use String with switch case?&lt;/h3&gt;
+&lt;p&gt;One of the Java 7 feature was improvement of switch case of allow Strings. So if you are using Java 7 or higher version, you can use String in switch-case statements. Read more at &lt;a href=&quot;https://www.journaldev.com/588/java-switch-case-string&quot;&gt;Java switch-case String example&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;pass-by-value&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Java is Pass by Value or Pass by Reference?&lt;/h3&gt;
+&lt;p&gt;This is a very confusing question, we know that object variables contain the reference to the Objects in heap space. When we invoke any method, a copy of these variables is passed and gets stored in the stack memory of the method. We can test any language whether it&amp;#8217;s pass by reference or pass by value through a simple generic swap method, to learn more read &lt;a href=&quot;https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference&quot;&gt;Java is Pass by Value and Not Pass by Reference&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;heap-vs-stack&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What is difference between Heap and Stack Memory?&lt;/h3&gt;
+&lt;p&gt;Major difference between Heap and Stack memory are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.&lt;/li&gt;
+&lt;li&gt;Whenever an object is created, it’s always stored in the Heap space and stack memory contains the reference to it. Stack memory only contains local primitive variables and reference variables to objects in heap space.&lt;/li&gt;
+&lt;li&gt;Memory management in the stack is done in a LIFO manner whereas it’s more complex in Heap memory because it’s used globally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a detailed explanation with a sample program, read &lt;a href=&quot;https://www.journaldev.com/4098/java-heap-space-vs-stack-memory&quot;&gt;Java Heap vs Stack Memory&lt;/a&gt;.
+&amp;lt;/li&amp;gt;
+&lt;p&gt;&lt;a name=&quot;java-compiler&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;Java Compiler is stored in JDK, JRE or JVM?&lt;/h3&gt;
+&lt;p&gt;The task of java compiler is to convert java program into bytecode, we have &lt;code&gt;javac&lt;/code&gt; executable for that. So it must be stored in JDK, we don&amp;#8217;t need it in JRE and JVM is just the specs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;a name=&quot;static-programming-questions&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;h3&gt;What will be the output of following programs?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;static method in class&lt;/strong&gt;
+&lt;pre&gt;&lt;code&gt;
+package com.journaldev.util;
+
+public class Test {
+
+	public static String toString(){
+		System.out.println(&quot;Test toString called&quot;);
+		return &quot;&quot;;
+	}
+	
+	public static void main(String args[]){
+		System.out.println(toString());
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: The code won&amp;#8217;t compile because we can&amp;#8217;t have an &lt;code&gt;Object&lt;/code&gt; class method with static keyword. Note that Object class has &lt;code&gt;toString()&lt;/code&gt; method. You will get a compile-time error as &amp;#8220;This static method cannot hide the instance method from Object&amp;#8221;. The reason is that static method belongs to the class and since every class base is Object, we can&amp;#8217;t have the same method in the instance as well as in class. You won&amp;#8217;t get this error if you change the method name from toString() to something else that is not present in superclass &lt;code&gt;Object&lt;/code&gt;.
+&amp;lt;/li&amp;gt;
+&lt;li&gt;&lt;strong&gt;static method invocation&lt;/strong&gt;
+&lt;pre&gt;&lt;code&gt;
+package com.journaldev.util;
+
+public class Test {
+
+	public static String foo(){
+		System.out.println(&quot;Test foo called&quot;);
+		return &quot;&quot;;
+	}
+	
+	public static void main(String args[]){
+		Test obj = null;
+		System.out.println(obj.foo());
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: Well this is a strange situation. We all have seen &lt;code&gt;NullPointerException&lt;/code&gt; when we invoke a method on the object that is NULL. But here this program will work and prints &amp;#8220;Test foo called&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;The reason for this is the java compiler code optimization. When the java code is compiled to produced byte code, it figures out that foo() is a static method and should be called using class. So it changes the method call &lt;code&gt;obj.foo()&lt;/code&gt; to &lt;code&gt;Test.foo()&lt;/code&gt; and hence no &lt;code&gt;NullPointerException&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I must admit that it&amp;#8217;s a very tricky question and if you are interviewing someone, this will blow his mind off. 🙂
+&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><summary type="html">Name some important features of Java 12 release? What are the important features of Java 11 release? What are the important features of Java 10 release? What are the important features of Java 9 release? What are the important features of Java 8 release? Name some OOPS Concepts in Java? What do you mean by platform independence of Java? What is JVM and is it platform independent? What is the difference between JDK and JVM? What is the difference between JVM and JRE? Which class is the superclass of all classes? Why Java doesn&amp;#8217;t support multiple inheritance? Why Java is not pure Object Oriented language? What is difference between path and classpath variables? What is the importance of main method in Java? What is overloading and overriding in java? Can we overload main method? Can we have multiple public classes in a java source file? What is Java Package and which package is imported by default? What are access modifiers? What is final keyword? What is static keyword? What is finally and finalize in java? Can we declare a class as static? What is static import? What is try-with-resources in java? What is multi-catch block in java? What is static block? What is an interface? What is an abstract class? What is the difference between abstract class and interface? Can an interface implement or extend another interface? What is Marker interface? What are Wrapper classes? What is Enum in Java? What is Java Annotations? What is Java Reflection API? Why it&amp;#8217;s so important to have? What is composition in java? What is the benefit of Composition over Inheritance? How to sort a collection of custom Objects in Java? What is inner class in java? What is anonymous inner class? What is Classloader in Java? What are different types of classloaders? What is ternary operator in java? What does super keyword do? What is break and continue statement? What is this keyword? What is default constructor? Can we have try without catch block? What is Garbage Collection? What is Serialization and Deserialization? How to run a JAR file through command prompt? What is the use of System class? What is instanceof keyword? Can we use String with switch case? Java is Pass by Value or Pass by Reference? What is difference between Heap and Stack Memory? Java Compiler is stored in JDK, JRE or JVM? What will be the output of following programs? Core Java Interview Questions and Answers &amp;lt;/p&amp;gt; Name some important features of Java 12 release? Java 12 was launched on March 19, 2019. It is a Non-LTS version. Some of the Java 12 Features are: JVM Changes &amp;#8211; JEP 189, JEP 346, JEP 344, and JEP 230. Switch Expressions File mismatch() Method Compact Number Formatting Teeing Collectors in Stream API New Methods in String Class JEP 334: JVM Constants API JEP 305: Pattern Matching for instanceof Raw String Literals is Removed From JDK 12. What are the important features of Java 11 release? Java 11 is the second LTS release after Java 8. They’ve changed the licensing and support model which means if you download the Java 11 Oracle JDK, it will be paid for commercial use. If you want to use free version, you can download it from OpenJDK website. Some of the important features of Java 11 are: We can run a java program directly through java command. The source file will be implicitly compiled and executed. It&amp;#8217;s part of JEP 330 feature implementation. There are 6 new methods added in String class &amp;#8211; isBlank(), lines(), strip(), stripLeading(), stripTrailing(), and repeat(). You can read all about them at our article on Java String class. Files class got two new methods to read/write string data &amp;#8211; readString() and writeString(). We can use &amp;#8220;var&amp;#8221; with lambda expressions too. It&amp;#8217;s part of JEP 323 implementation. Epsilon: A No-Op Garbage Collector for test environments. It&amp;#8217;s an experimental feature and part of JEP 318. Java EE and CORBA Modules have been removed from the standard JDK build. Nashorn JavaScript Engine has also been deprecated. New HTTP Client (JEP 321) and Flight Recorder (JEP 328) For a complete overview, please read Java 11 Features. &amp;lt;/li&amp;gt; What are the important features of Java 10 release? Java 10 is the first every-six-months from Oracle corporation, so it&amp;#8217;s not a major release like earlier versions. However some of the important features of Java 10 are: Local-Variable Type Inference Enhance java.util.Locale and related APIs to implement additional Unicode extensions of BCP 47 language tags. Enable the HotSpot VM to allocate the Java object heap on an alternative memory device, such as an NV-DIMM, specified by the user. Provide a default set of root Certification Authority (CA) certificates in the JDK. Java 10 is mostly a maintenance release, however I really liked the local variable type inference feature. For a detailed overview of Java 10, please go through Java 10 Features. &amp;lt;/li&amp;gt; What are the important features of Java 9 release? Java 9 was a major release and brought a lot of features. Some of the important features are: Java 9 REPL (JShell) Java 9 Module System Factory Methods for Immutable List, Set, Map and Map.Entry Private methods in Interfaces Reactive Streams GC (Garbage Collector) Improvements You will find more details about them at Java 9 Features. &amp;lt;/li&amp;gt; What are the important features of Java 8 release? Java 8 has been released in March 2014, so it&amp;#8217;s one of the hot topic in java interview questions. If you answer this question clearly, it will show that you like to keep yourself up-to-date with the latest technologies. Java 8 has been one of the biggest releases after Java 5 annotations and generics. Some of the important features of Java 8 are: Interface changes with default and static methods Functional interfaces and Lambda Expressions Java Stream API for collection classes Java Date Time API I strongly recommend to go through above links to get proper understanding of each one of them, also read Java 8 Features. &amp;lt;/li&amp;gt; Name some OOPS Concepts in Java? Java is based on Object Oriented Programming Concepts, following are some of the OOPS concepts implemented in java programming. Abstraction Encapsulation Polymorphism Inheritance Association Aggregation Composition Read more about them at OOPS Concepts in Java. &amp;lt;/li&amp;gt; What do you mean by platform independence of Java? Platform independence means that you can run the same Java Program in any Operating System. For example, you can write java program in Windows and run it in Mac OS. &amp;lt;/li&amp;gt; What is JVM and is it platform independent? Java Virtual Machine (JVM) is the heart of java programming language. JVM is responsible for converting byte code into machine readable code. JVM is not platform independent, thats why you have different JVM for different operating systems. We can customize JVM with Java Options, such as allocating minimum and maximum memory to JVM. It&amp;#8217;s called virtual because it provides an interface that doesn&amp;#8217;t depend on the underlying OS. &amp;lt;/li&amp;gt; What is the difference between JDK and JVM? Java Development Kit (JDK) is for development purpose and JVM is a part of it to execute the java programs. JDK provides all the tools, executables and binaries required to compile, debug and execute a Java Program. The execution part is handled by JVM to provide machine independence. &amp;lt;/li&amp;gt; What is the difference between JVM and JRE? Java Runtime Environment (JRE) is the implementation of JVM. JRE consists of JVM and java binaries and other classes to execute any program successfully. JRE doesn&amp;#8217;t contain any development tools like java compiler, debugger etc. If you want to execute any java program, you should have JRE installed. &amp;lt;/li&amp;gt; Which class is the superclass of all classes? java.lang.Object is the root class for all the java classes and we don&amp;#8217;t need to extend it. &amp;lt;/li&amp;gt; Why Java doesn&amp;#8217;t support multiple inheritance? Java doesn&amp;#8217;t support multiple inheritance in classes because of &amp;#8220;Diamond Problem&amp;#8221;. To know more about diamond problem with example, read Multiple Inheritance in Java. However multiple inheritances are supported in interfaces. An interface can extend multiple interfaces because they just declare the methods and implementation will be present in the implementing class. So there is no issue of the diamond problem with interfaces. &amp;lt;/li&amp;gt; Why Java is not pure Object Oriented language? Java is not said to be pure object-oriented because it supports primitive types such as int, byte, short, long etc. I believe it brings simplicity to the language while writing our code. Obviously, java could have wrapper objects for the primitive types but just for the representation, they would not have provided any benefit. As we know, for all the primitive types we have wrapper classes such as Integer, Long etc that provides some additional methods. &amp;lt;/li&amp;gt; What is difference between path and classpath variables? PATH is an environment variable used by the operating system to locate the executables. That&amp;#8217;s why when we install Java or want any executable to be found by OS, we need to add the directory location in the PATH variable. If you work on Windows OS, read this post to learn how to setup PATH variable on Windows. Classpath is specific to java and used by java executables to locate class files. We can provide the classpath location while running java application and it can be a directory, ZIP files, JAR files etc. &amp;lt;/li&amp;gt; What is the importance of main method in Java? main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]). Java main method is public and static so that Java runtime can access it without initializing the class. The input parameter is an array of String through which we can pass runtime arguments to the java program. Check this post to learn how to compile and run java program. &amp;lt;/li&amp;gt; What is overloading and overriding in java? When we have more than one method with the same name in a single class but the arguments are different, then it is called as method overloading. Overriding concept comes in picture with inheritance when we have two methods with same signature, one in parent class and another in child class. We can use @Override annotation in the child class overridden method to make sure if parent class method is changed, so as child class. &amp;lt;/li&amp;gt; Can we overload main method? Yes, we can have multiple methods with name &amp;#8220;main&amp;#8221; in a single class. However if we run the class, java runtime environment will look for main method with syntax as public static void main(String args[]). &amp;lt;/li&amp;gt; Can we have multiple public classes in a java source file? We can&amp;#8217;t have more than one public class in a single java source file. A single source file can have multiple classes that are not public. &amp;lt;/li&amp;gt; What is Java Package and which package is imported by default? Java package is the mechanism to organize the java classes by grouping them. The grouping logic can be based on functionality or modules based. A java class fully classified name contains package and class name. For example, java.lang.Object is the fully classified name of Object class that is part of java.lang package. java.lang package is imported by default and we don&amp;#8217;t need to import any class from this package explicitly. &amp;lt;/li&amp;gt; What are access modifiers? Java provides access control through public, private and protected access modifier keywords. When none of these are used, it&amp;#8217;s called default access modifier. A java class can only have public or default access modifier. Read Java Access Modifiers to learn more about these in detail. &amp;lt;/li&amp;gt; What is final keyword? final keyword is used with Class to make sure no other class can extend it, for example String class is final and we can&amp;#8217;t extend it. We can use the final keyword with methods to make sure child classes can&amp;#8217;t override it. final keyword can be used with variables to make sure that it can be assigned only once. However the state of the variable can be changed, for example, we can assign a final variable to an object only once but the object variables can change later on. Java interface variables are by default final and static. &amp;lt;/li&amp;gt; What is static keyword? static keyword can be used with class level variables to make it global i.e all the objects will share the same variable. static keyword can be used with methods also. A static method can access only static variables of class and invoke only static methods of the class. Read more in detail at java static keyword. &amp;lt;/li&amp;gt; What is finally and finalize in java? finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. finally block is mostly used to release resources created in the try block. finalize() is a special method in Object class that we can override in our classes. This method gets called by the garbage collector when the object is getting garbage collected. This method is usually overridden to release system resources when the object is garbage collected. &amp;lt;/li&amp;gt; Can we declare a class as static? We can&amp;#8217;t declare a top-level class as static however an inner class can be declared as static. If inner class is declared as static, it&amp;#8217;s called static nested class. The static nested class is the same as any other top-level class and is nested for only packaging convenience. Read more about inner classes at java inner class. &amp;lt;/li&amp;gt; What is static import? If we have to use any static variable or method from other class, usually we import the class and then use the method/variable with class name. import java.lang.Math;</summary></entry></feed>
