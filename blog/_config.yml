@@ -3,7 +3,7 @@ email: quadratesolutions@gmail.com
 description: Quadrate Tech School is a complete free virtual Academy to learn programming languages and other skills
 baseurl: "/" 
 # the subpath of your site, e.g. /blog
-url: "https://blog.quadrate.lk" 
+url: "https://blog.quadrate.lk/blog" 
 # the base hostname & protocol for your site, e.g. http://example.com
 
 
