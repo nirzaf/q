@@ -6,7 +6,6 @@ baseurl: "/"
 url: "https://quadrate.lk/blog" 
 # the base hostname & protocol for your site, e.g. http://example.com
 
-
 github_username:  quadrate-tech
 
 # Build settings
